@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Trained model artifacts
+*.keras
+*.h5
+
+# Local / recovered datasets
+*.csv
+!data/README.md
+
+# Arduino / embedded build output
+build/
+*.elf
+*.hex
+*.bin
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
